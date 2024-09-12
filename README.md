@@ -15,8 +15,8 @@ Documentation Here
 
 ## Developers
 
-- [Delevoper Name](https://github.com/maRikOmarikexe)
-- [Delevoper Name](https://github.com/Doath1337)
+- [Марк Мкртчян](https://github.com/maRikOmarikexe) - frontend developer
+- [Александр Коробейников](https://github.com/Doath1337) - backend developer
 
 
 ## License
