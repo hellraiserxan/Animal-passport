@@ -5,22 +5,20 @@
       <img src="https://i.ibb.co/vkznSS5/346915732996474.webp" width="726">
 </p>
 
-
 ## About
 
-About Text Here
+Разработка прогрессивного веб-приложения "Паспорт животного" с микросервисной архитектурой и UX/UI-дизайном для пользователей, имеющих домашних животных, таких как собак, котов, крыс и многих других. Приложение даёт пользователю возможность с помощью пару кликов проверить, необходимо ли дать лекартсво вашему зверьку или записаться на прием к ветеринару. Данное приложение поможет вам лучше отслеживать состояние вашего любимого питомца и сделать его жизнь лучше!  
 
 ## Documentation
 
 Documentation Here
 
-## Distribute
-
-- [Service Name](Page Link)
-
-
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
+- [Delevoper Name](https://github.com/maRikOmarikexe)
+- [Delevoper Name](https://github.com/Doath1337)
+
 
 ## License
+
+Non-license
