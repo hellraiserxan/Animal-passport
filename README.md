@@ -22,7 +22,7 @@
 ## Rules❗
 
 Дизайнерам: Дизайны одних и тех же страниц(pages) c разной шириной сохранять в одной папке в директории design\pages\something. 
-<div style = "border-top: 100px dotted #FFFFFF;"></div>
+<div style = "border-top: 100px dotted #FFFFFF;height: 18px;"></div>
 Картинки сохранять в папках, которые соответствуют названиям файлов, например: design\img\logo\logo.png
 
 Программистам: при работе с ветками перед тем как делать pull request(merge request), необходимо сделать unit-тесты или mock-тесты и прикрепить конкретный issue(смотри roadmap ниже), потом идет совместный code review. 
