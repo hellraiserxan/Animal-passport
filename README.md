@@ -24,13 +24,13 @@ Documentation Here
 
 ## Stack📜
 <ul>
-      <li>UX/UI - design: figma</li>
+<li>UX/UI - design: figma</li>
 
-       <li>Backend: java, MySQL, TomCat server, Spring </li>
+<li>Backend: java, MySQL, TomCat server, Spring </li>
 
-       <li>Frontend: JS, React, Redux Toolkit</li>
+<li>Frontend: JS, React, Redux Toolkit</li>
 
-Common: Webpack, Docker
+<li>Common: Webpack, Docker</li>
 </ul>
 ## License
 
