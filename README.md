@@ -32,7 +32,8 @@ Documentation Here
 
 <li>Common: Webpack, Docker</li>
 </ul>
-## License
+
+## License🧾
 
 Non-license
 
