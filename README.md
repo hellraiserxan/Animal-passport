@@ -26,8 +26,11 @@
 Программистам: при работе с ветками перед тем как делать pull request(merge request), необходимо сделать unit-тесты или mock-тесты и прикрепить конкретный issue(смотри roadmap ниже), потом идет совместный code review. Это касается как и backend, так и frontend side приложения.
 
 
-## Developers👨‍💻
+## Team👨‍💻
 
+- [Александр Передвижкин](https://github.com/fewuch) - product maanger
+- [Дмитрий Губин](https://github.com/SlojnaSlojna) - ux/ui-designer
+- [Евгения Михнова](https://github.com/Eva-He-understands) - ux/ui-designer
 - [Марк Мкртчян](https://github.com/maRikOmarikexe) - frontend developer
 - [Александр Коробейников](https://github.com/Doath1337) - backend developer
 
