@@ -36,7 +36,7 @@
 
 - [Александр Передвижкин](https://github.com/fewuch) - product manager
 - [Дмитрий Губин](https://github.com/SlojnaSlojna) - ux/ui-designer
-- [Евгения Михнова](https://github.com/Eva-He-understands) - ux/ui-designer
+- [Ева Михнова](https://github.com/Eva-He-understands) - ux/ui-designer
 - [Марк Мкртчян](https://github.com/maRikOmarikexe) - frontend developer
 - [Александр Коробейников](https://github.com/Doath1337) - backend developer
 
