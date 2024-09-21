@@ -36,9 +36,17 @@
 По всем вопросам писать в whatsup! На номер:
 
       +79133286714
-или в discord:
+discord:
 
       caaa4522
+      
+email:
+
+      isaqwa787@gmail.com
+
+reddit:
+
+      u/SoggyPressure7934
 
 ## Team👨‍💻
 
