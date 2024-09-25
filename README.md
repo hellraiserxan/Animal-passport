@@ -60,7 +60,7 @@ reddit:
 <ul>
 <li>UX/UI - design: figma</li>
 
-<li>Backend: java, MySQL, TomCat server, Spring </li>
+<li>Backend: java, MySQL, TomCat server, Spring, Lombok </li>
 
 <li>Frontend: JS, React, Redux Toolkit</li>
 
