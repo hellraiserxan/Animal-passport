@@ -1,4 +1,4 @@
-package org.example.auth;
+package org.pettrek.auth.model;
 
 import lombok.Data;
 
@@ -7,8 +7,4 @@ public class SignupRequest {
     private String password;
     private String username;
     private String email;
-
-    public String getUsername() {
-        return username;
-    }
 }

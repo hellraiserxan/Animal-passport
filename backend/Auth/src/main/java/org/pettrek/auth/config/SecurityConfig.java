@@ -1,11 +1,11 @@
-package org.example.auth;
+package org.pettrek.auth.config;
 
+import org.pettrek.auth.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -19,7 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 
 @Configuration
-@EnableWebSecurity
+@EnableWebSecurity(debug = true)
 public class SecurityConfig  {
     private UserService userService;
     private TokenFilter tokenFilter;
@@ -41,7 +41,7 @@ public class SecurityConfig  {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http
+        http  // тут с csrf надо подрочиться и сделать по нормальному, сейчас ублюдство полное
                 .csrf(AbstractHttpConfigurer::disable)
                 .cors(httpSecurityCorsConfigurer ->
                         httpSecurityCorsConfigurer.configurationSource(request ->
@@ -51,9 +51,9 @@ public class SecurityConfig  {
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorize ->authorize
                         .requestMatchers("/auth/**").permitAll()
-                        .requestMatchers("/sequred/user").fullyAuthenticated()
+                        .requestMatchers("/secured/user").authenticated() // Еще вот это fullyAuthenticated нихуя не работает и не пускает юзера на secured
                         .anyRequest().permitAll())
                 .addFilterBefore(tokenFilter, UsernamePasswordAuthenticationFilter.class);
-        return http.build();
+        return http.build(); // в общем с конфигом нужно малех мозга поебать, чтобы всё чики пуки было
     }
 }

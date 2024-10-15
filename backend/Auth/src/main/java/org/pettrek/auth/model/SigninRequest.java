@@ -1,4 +1,4 @@
-package org.example.auth;
+package org.pettrek.auth.model;
 
 import lombok.Data;
 
