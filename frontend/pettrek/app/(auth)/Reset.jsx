@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#FFFFFF',
     alignItems: 'center',
-    // justifyContent: 'center',
     fontFamily: 'Aqum2classic',
     flex: 1,
   },
