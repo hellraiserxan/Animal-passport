@@ -4,14 +4,9 @@ import { StyleSheet, Text, View, Pressable } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Logo from '../../assets/icons/logog.svg'
-
-
 import { Link } from 'expo-router';
 import Social from '../../assets/icons/Group 1.svg'
-
 const ResetInfo = ({ navigation }) => {
-
-
   return (
     <SafeAreaView style={styles.container}>
       <Pressable onPress={() => { navigation.navigate('sign-in') }}>
