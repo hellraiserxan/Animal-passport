@@ -18,7 +18,7 @@ const ResetInfo = ({ navigation }) => {
         <Text style={styles.reference_linkk}>Назад</Text>
       </Pressable>
       <Logo
-        style={styles.wir}
+        style={styles.logo}
         resizeMode='contain'
       />
       <View style={styles.textExp}>
@@ -41,7 +41,7 @@ const ResetInfo = ({ navigation }) => {
 export default ResetInfo;
 
 const styles = StyleSheet.create({
-  wir: {
+  logo: {
     width: 328,
     height: 136,
     marginTop: 170,
