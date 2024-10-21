@@ -82,6 +82,7 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
@@ -92,6 +93,8 @@
             <artifactId>jaxb-runtime</artifactId>
             <version>2.3.1</version>
         </dependency>
+=======
+>>>>>>> c7865eb55321c8b4fe4ac21d6327d8e88771b16f
     </dependencies>
 
     <build>
